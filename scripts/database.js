@@ -56,6 +56,11 @@ const database = {
         name: "Arv Biddle",
         email: "abiddle9@cafepress.com",
         cityId: 10
+    }, {
+        id: 11,
+        name: "Amelia Anderson",
+        email: "amelia@andersonfam.com",
+        cityId: 4
     }],
     pets: [{
         id: 1,
