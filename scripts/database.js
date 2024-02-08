@@ -10,52 +10,52 @@ const database = {
         id: 1,
         name: "Alphonse Meron",
         email: "ameron0@mashable.com",
-        city: 1
+        cityId: 1
     }, {
         id: 2,
         name: "Damara Pentecust",
         email: "dpentecust1@apache.org",
-        city: 2
+        cityId: 2
     }, {
         id: 3,
         name: "Anna Bowton",
         email: "abowton2@wisc.edu",
-        city: 3
+        cityId: 3
     }, {
         id: 4,
         name: "Hunfredo Drynan",
         email: "hdrynan3@bizjournals.com",
-        city: 4
+        cityId: 4
     }, {
         id: 5,
         name: "Elmira Bick",
         email: "ebick4@biblegateway.com",
-        city: 5
+        cityId: 5
     }, {
         id: 6,
         name: "Bernie Dreger",
         email: "bdreger5@zimbio.com",
-        city: 6
+        cityId: 6
     }, {
         id: 7,
         name: "Rolando Gault",
         email: "rgault6@google.com",
-        city: 7
+        cityId: 7
     }, {
         id: 8,
         name: "Tiffanie Tubby",
         email: "ttubby7@intel.com",
-        city: 8
+        cityId: 8
     }, {
         id: 9,
         name: "Tomlin Cutill",
         email: "tcutill8@marketwatch.com",
-        city: 9
+        cityId: 9
     }, {
         id: 10,
         name: "Arv Biddle",
         email: "abiddle9@cafepress.com",
-        city: 10
+        cityId: 10
     }],
     pets: [{
         id: 1,
