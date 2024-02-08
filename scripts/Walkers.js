@@ -1,5 +1,4 @@
-import { getWalkers } from "./database.js"
-
+import { getWalkers, getCities } from "./database.js"
 
 document.addEventListener(
     "click",
@@ -7,11 +6,19 @@ document.addEventListener(
         const elementClickedOn = clickEvent.target
         
         if (elementClickedOn.dataset.type === "walker") {
-            window.alert(`This walker works in ${elementClickedOn.dataset.city}`)
+            const cityId = parseInt(elementClickedOn.dataset.cityid)
+            const cities = getCities()
+
+            for (const city of cities) {
+                if (city.id === cityId) {
+                    window.alert(`This walker works in ${city.name}`)
+                    break
+                }
+            }
         }
     })
     
-    export const Walkers = () => {
+export const Walkers = () => {
     const walkers = getWalkers()
     
     let walkerHTML = "<ul>"
