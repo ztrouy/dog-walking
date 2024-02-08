@@ -18,7 +18,7 @@ export const Walkers = () => {
 
     for (const walker of walkers) {
         walkerHTML += `<li data-id="${walker.id}" 
-                            data-city="${walker.city}"
+                            data-cityId="${walker.cityId}"
                             data-type="walker">
                             ${walker.name}
                         </li>`
