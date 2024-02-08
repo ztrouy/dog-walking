@@ -12,11 +12,16 @@ document.addEventListener(
             const cityId = parseInt(clickTarget.dataset.id)
             
             const walkers = getWalkers()
+            const localWalkers = []
             for (const walker of walkers) {
                 if (walker.cityId === cityId) {
-                    window.alert(`${walker.name} is servicing this city`)
+                    localWalkers.push(walker.name)
                 }
             }
+            
+            const localWalkersString = localWalkers.join(" and ")
+            
+            window.alert(`${localWalkersString} is servicing this city`)
         }
     }
 )
