@@ -15,6 +15,8 @@ document.addEventListener(
 )
 
 export const CityList = () => {
+    
+    
     let citiesHTML = "<ul>"
 
     for (const walker of walkers) {
